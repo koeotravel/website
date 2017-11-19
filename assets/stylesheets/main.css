@@ -14,3 +14,12 @@ textarea {
   background-size: cover;
   background-position: top center;
 }
+
+.social img {
+  opacity: 0.5;
+  transition: all .3s;
+}
+
+.social:hover img {
+  opacity: 1;
+}
