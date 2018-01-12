@@ -10,9 +10,9 @@ textarea {
 
 .hero {
   background-color: #5BD3CA;
-  background-image: url('/assets/images/hero-bg.jpg');
+  background-image: url('/assets/images/hero.jpg');
   background-size: cover;
-  background-position: top center;
+  background-position: top right;
 }
 
 .social img {
