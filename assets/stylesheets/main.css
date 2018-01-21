@@ -23,3 +23,8 @@ textarea {
 .social:hover img {
   opacity: 1;
 }
+
+a {
+  color: #000;
+  font-weight: bold;
+}
