@@ -1,0 +1,14 @@
+title: Koeo
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+twitter: https://twitter.com/koeotravel
+instagram: https://instagram.com/koeotravel
+
+base_url: /
+url: https://koeo.co
+timezone: America/Chicago
+sass:
+  style: compact
