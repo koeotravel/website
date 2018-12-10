@@ -1,0 +1,16 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "main": "src/index.pug",
+  "repository": "git@github.com:koeotravel/www",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "parcel build src/*.pug",
+    "start": "parcel serve src/index.pug --open",
+    "deploy": "yarn build && now dist"
+  },
+  "devDependencies": {
+    "pug": "^2.0.3"
+  }
+}

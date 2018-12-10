@@ -1,0 +1,41 @@
+:root {
+  /* Colors */
+  --eggplant: #2B2C5A;
+  --eggplant-light: #E2E5FA;
+  --lavender: #6C7CE8;
+  --lavender-text: var(--eggplant);
+  --mint: #56D28F;
+  --mint-text: #1A402C;
+  --banana: #F4C429;
+  --banana-text: #40330B;
+  --strawberry: #E5476D;
+  --strawberry-text: #40141E;
+
+  /* Type */
+  --serif: 'IBM Plex Serif', serif;
+  --sans: 'IBM Plex Sans', sans-serif;
+  --mono: 'IBM Plex Mono', monospace;
+}
+
+body {
+  background-color: var(--eggplant-light);
+  color: var(--eggplant);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--sans);
+  min-height: 100vh;
+}
+
+footer {
+  background-color: var(--eggplant);
+}
+
+.serif { font-family: var(--serif); }
+.sans { font-family: var(--sans); }
+.mono { font-family: var(--mono); }
+
+.eggplant { color: var(--eggplant); }
+.bg-eggplant { background-color: var(--eggplant); }
+.eggplant-light { color: var(--eggplant-light); }
+.b--eggplant { border-color: var(--eggplant); }
+.b--eggplant-light { border-color: var(--eggplant-light); }

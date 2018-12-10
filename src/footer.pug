@@ -1,0 +1,55 @@
+footer.w-100.bg-egplant
+  div.border-box.pa3.ph5-ns.center.mw8.flex.flex-column.flex-row-m.flex-row-l.items-baseline
+    .w-100.mv3.order-last.order-0-m.order-0-l
+      svg.w2(width='160px', viewBox='0 0 160 128', version='1.1', xmlns='http://www.w3.org/2000/svg', xlink='http://www.w3.org/1999/xlink')
+        defs
+          path#path-1(d='M96,0 C60.653776,0 32,28.653776 32,64 L0,64 L0,0 L96,0 Z')
+        g#logo-v3(stroke='none', stroke-width='1', fill='none', fill-rule='evenodd')
+          g#2---on-dark(transform='translate(-48.000000, -64.000000)')
+            g#logo(transform='translate(48.000000, 64.000000)')
+              path#head(d='M155.876924,60.123236 C153.877332,28.7282753 127.766815,4 96,4 C62.862915,4 36,30.862915 36,64 C36,95.7790236 60.7473061,121.897457 92.1595406,123.879225 C94.8416994,89.4095132 121.842056,62.1665419 155.876924,60.123236 Z', stroke='#E2E5FA', stroke-width='8', fill-rule='nonzero')
+              path#beak(d='M158.000342,64.0306453 C139.68774,64.0306453 123.31668,72.8450944 112,85.6668097 L112,2.01627976 C138.985389,8.96183881 159.201618,33.0548001 159.969453,62.0035602 C160.008423,63.4727783 158.661179,64.0306453 158.000342,64.0306453 Z', fill='#E2E5FA', fill-rule='nonzero')
+              circle#eye(fill='#E2E5FA', fill-rule='nonzero', cx='86', cy='42', r='10')
+              g#feathers
+                mask#mask-2(fill='white')
+                  use(href='#path-1')
+                g#Mask(fill-rule='nonzero')
+                path#Combined-Shape-Copy-4(d='M11.9998042,25.9569572 C11.9990179,25.9361825 11.9978823,25.9153709 11.9963921,25.8945289 C11.9978054,25.9157267 11.9992422,25.9369179 12.0007025,25.9581024 Z M12.2163884,28 C14.1611904,41.6243031 25.889168,52 39.9334618,52 L100,52 L100,28 C47.6444047,28 45.6918726,28 12.2163884,28 Z', stroke='#E2E5FA', stroke-width='8', fill-rule='nonzero', mask='url(#mask-2)')
+                path#Combined-Shape-Copy-5(d='M4.21638836,4.00031769 C6.16119038,17.6246208 17.889168,28.0003177 31.9334618,28.0003177 L92,28.0003177 L92,4.00031769 C39.6444047,4.00031769 37.6918726,4.00031769 4.21638836,4.00031769 Z', stroke='#E2E5FA', stroke-width='8', fill-rule='nonzero', mask='url(#mask-2)')
+      p.mv2.eggplant-light.f6.mono.o-50 Go places. Together.
+      p.mv2.eggplant-light.f6.mono.o-50 &copy; 2018 Koeo Travel
+      p.mv2.f6.mono
+        a.link.dim.eggplant-light.underline(href='/terms-privacy', title='Terms and privacy') Terms &amp; Privacy
+
+    .w-100.mv3
+      h6.serif.eggplant-light.f5.fw6.ma0.mb2 Contact
+      ul.list.mono.pa0.ma0
+        - var socials = [{platform: 'Facebook',href: 'https://www.facebook.com/koeotravel/'},{platform: 'Instagram',href: 'https://www.instagram.com/koeotravel/'},{platform: 'Twitter',href: 'https://twitter.com/koeotravel'}]
+          each val in socials
+            li.mv2
+              a.link.dim.eggplant-light.f6.dib.mono(href=val.href, title=val.platform) #{val.platform}
+        li.mv2
+          a.link.dim.eggplant-light.f6.dib.mono(href='mailto:team@koeo.co') Email us
+
+//- Global site tag (gtag.js) - Google Analytics
+script(async='', src='https://www.googletagmanager.com/gtag/js?id=UA-130669748-1')
+script(type='text/javascript').
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-130669748-1');
+
+//- Facebook Pixel Code
+script(type='text/javascript').
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1542218902548148');
+  fbq('track', 'PageView');
+noscript
+  img(height='1' width='1' style='display:none' src='https://www.facebook.com/tr?id=1542218902548148&ev=PageView&noscript=1')
