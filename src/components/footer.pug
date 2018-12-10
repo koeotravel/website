@@ -2,11 +2,11 @@ footer.w-100.bg-egplant
   div.border-box.pa3.ph5-ns.center.mw8.flex.flex-column.flex-row-m.flex-row-l.items-baseline
     .w-100.mv3.order-last.order-0-m.order-0-l
       a.link.dim.db.w2(href='/')
-        img(src="../public/logo-light.png", alt="Koeo logo")
+        img(src="../../public/logo-light.png", alt="Koeo logo")
       p.mv2.eggplant-light.f6.mono.o-50 Go places. Together.
       p.mv2.eggplant-light.f6.mono.o-50 &copy; 2018 Koeo Travel
       p.mv2.f6.mono
-        a.link.dim.eggplant-light.underline(href='/terms-privacy', title='Terms and privacy') Terms &amp; Privacy
+        a.link.dim.eggplant-light.underline(href='../pages/terms-privacy', title='Terms and privacy') Terms &amp; Privacy
 
     .w-100.mv3
       h6.serif.eggplant-light.f5.fw6.ma0.mb2 Contact
@@ -14,7 +14,7 @@ footer.w-100.bg-egplant
         - var socials = [{platform: 'Facebook',href: 'https://www.facebook.com/koeotravel/'},{platform: 'Instagram',href: 'https://www.instagram.com/koeotravel/'},{platform: 'Twitter',href: 'https://twitter.com/koeotravel'}]
           each val in socials
             li.mv2
-              a.link.dim.eggplant-light.f6.dib.mono(href=val.href, title=val.platform) #{val.platform}
+              a.link.dim.eggplant-light.f6.dib.mono(href=val.href, title=val.platform, ) #{val.platform}
         li.mv2
           a.link.dim.eggplant-light.f6.dib.mono(href='mailto:team@koeo.co') Email us
 

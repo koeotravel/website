@@ -13,7 +13,6 @@
 
   /* Type */
   --serif: 'IBM Plex Serif', serif;
-  --sans: 'IBM Plex Sans', sans-serif;
   --mono: 'IBM Plex Mono', monospace;
 }
 
@@ -22,7 +21,7 @@ body {
   color: var(--eggplant);
   display: flex;
   flex-direction: column;
-  font-family: var(--sans);
+  font-family: var(--serif);
   min-height: 100vh;
 }
 
@@ -31,7 +30,6 @@ footer {
 }
 
 .serif { font-family: var(--serif); }
-.sans { font-family: var(--sans); }
 .mono { font-family: var(--mono); }
 
 .eggplant { color: var(--eggplant); }

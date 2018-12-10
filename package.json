@@ -6,8 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "parcel build src/*.pug",
-    "start": "parcel serve src/index.pug --open",
+    "build": "parcel build src/pages/",
+    "start": "parcel src/pages/index.pug",
     "deploy": "yarn build && now dist"
   },
   "devDependencies": {
