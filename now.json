@@ -1,4 +1,8 @@
 {
-  "version": "2",
-  "alias": ["koeo.co"]
+  "version": 2,
+  "name": "www",
+  "alias": "koeo.co",
+  "builds": [
+    {"src": "dist/*", "use": "@now/static"}
+  ]
 }
